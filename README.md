@@ -1,26 +1,30 @@
-# 🦜 Agentic RAG Chatbot with Ollama & LangChain
+# 🦜 Local Agentic RAG with Ollama, LangChain & Wikipedia Data
 
-## 📌 Overview
-This project is a **local Retrieval-Augmented Generation (RAG) chatbot** that:
-- Scrapes relevant knowledge from **Wikipedia** using **Bright Data**.
-- Creates embeddings using **Ollama**.
-- Stores knowledge in a **Chroma vector database**.
-- Uses **LangChain** to orchestrate retrieval and answer generation.
-- Runs **completely locally** — no API calls to external LLM services.
+This project is a **local Retrieval-Augmented Generation (RAG) chatbot** built using:
+- **Ollama** for both embeddings & chat model
+- **LangChain** for retrieval, orchestration, and prompt handling
+- **Chroma** as the local vector database
+- **Bright Data** for Wikipedia scraping
+- **Streamlit** for the chat UI
+
+You can run this **fully locally** after downloading the models.
+
+---
 
 ## 🚀 Features
-- **Local LLM Inference** using Ollama.
-- **Local Embeddings** with Ollama models.
-- **Efficient Knowledge Retrieval** from a Chroma vector store.
-- **Wikipedia Scraping** with Bright Data based on custom keywords.
-- **Interactive Chat UI** powered by Streamlit.
-- **Conversation History Awareness** for follow-up questions.
+- Local RAG pipeline with Ollama models
+- Scrapes Wikipedia using Bright Data
+- Chunking & storing data into Chroma
+- Interactive chatbot with chat history support
+- Quick inference with single retrieval per question
+
+---
 
 ## 🛠️ Tech Stack
-- **Python** – Core programming language.
-- **LangChain** – Orchestration of retrieval and chat model.
-- **Ollama** – For both chat model and embedding model.
-- **Bright Data** – Web scraping Wikipedia articles.
-- **Chroma** – Local vector database for document storage.
-- **Streamlit** – Web app interface.
+- **Python** – Core programming language
+- **LangChain** – Orchestration of retrieval and chat model
+- **Ollama** – Chat and embedding models
+- **Bright Data** – Web scraping Wikipedia articles
+- **Chroma** – Local vector database
+- **Streamlit** – Web app interface
 
